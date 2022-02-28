@@ -1,0 +1,312 @@
+body {
+    font-family: 'Fraunces', serif;
+}
+
+.container-fluid {
+    padding: 0 0;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+/* Navbar */
+
+.navbar {
+    font-family: 'Barlow', sans-serif;
+    padding: 15px 40px;
+}
+
+.navbar-brand {
+    font-weight: 900;
+    font-size: 1.4em;
+}
+
+.navbar-dark .navbar-brand:hover {
+    font-size: 1.43em;
+}
+
+.navbar .contact {
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    margin: auto;
+    padding: 8px 20px;
+}
+
+.navbar .contact:hover {
+    background-color: #FED503;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+@media (min-width: 992px) {
+    .navbar-dark .navbar-nav .nav-link {
+        padding-right: 28px;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #27285C;
+}
+
+.navbar.scrolled {
+    background-color: #3CBEFF;
+    transition: background-color 200ms linear;
+  }
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        align-items: center;
+        background-color: #ffffff;
+        padding-bottom: 0.8em;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        color: gray;
+        padding-right: 0;
+    }
+
+    .navbar .contact {
+        background-color: #FED503;
+    }
+
+    .navbar .contact:hover {
+        background-color: #feaf03;
+    }
+}
+
+/* Main */
+
+.main-header{
+    position: relative;
+    width: 100%;
+}
+
+@media (max-width: 991.98px) {
+    .main-header .orange {
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+    }
+}
+
+.main-word {
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 2.8em;
+    text-align: center;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.arrow {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 8em;
+}
+
+@media (min-width: 992px) {
+    .main-header img {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .main-word {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.1em;
+    }
+
+    .arrow {
+        position: absolute;
+        top: 62%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 8em;
+    }
+}
+
+
+.main-img {
+    position: relative;
+}
+
+.main-img img {
+    width: 100%;
+}
+
+.main-img .word {
+    position: absolute;
+    top: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 10%;
+}
+
+@media (min-width: 768px) {
+    .main-img .word {
+        top: 70%;
+    }
+}
+
+.main-img .word p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+}
+
+.col-lg-6 {
+    padding: 0;
+}
+
+.main-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15% 10%;
+    line-height: 1.7;
+}
+
+@media (min-width: 992px) {
+    .main-info {
+        padding: 0 10%;
+    }
+} 
+
+.main-info h2 {
+    font-size: 2.4rem;
+}
+
+.main-info p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
+
+.main-info a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+.graphic-design {
+    color: hsl(167, 40%, 24%);
+}
+
+.photography {
+    color: hsl(198, 62%, 26%);
+}
+
+/* Client Testimonial */
+.client-testi {
+    text-align: center;
+    padding: 8em 4em;
+
+}
+
+.client-testi .testi {
+    padding-top: 15%;
+}
+
+@media (min-width: 768px) {
+    .client-testi .testi {
+        padding-top: 7%;
+    }
+}
+
+.client-testi h3 {
+    text-transform: uppercase;
+    color: hsl(210, 4%, 67%);
+    font-size: 1rem;
+    letter-spacing: 0.4em;
+}
+
+.client-testi img {
+    border-radius: 50%;
+    width: 5rem;
+    height: auto;
+}
+
+.client-testi p {
+    font-family: 'Barlow', sans-serif;
+}
+
+.client-testi .comment {
+    padding: 5% 12%;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .client-testi .comment {
+        padding: 5% 20%;
+    }
+}
+
+/* Footer Image */
+.footer-imgs img {
+    width: 100%;
+    padding: 0 0;
+}
+
+.footer-img {
+    padding: 0 0;
+}
+
+
+/* Footer */
+.footer {
+    font-family: 'Barlow', sans-serif;
+    color: hsl(168, 42%, 36%);
+    text-align: center;
+    padding: 3em 0;
+    background-color: #9FDBCD;
+    font-weight: 300;
+    
+}
+
+.footer h4 {
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.footer h4:hover {
+    color: hsl(168, 79%, 13%);
+}
+
+.footer .link {
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+.footer .link a {
+    padding: 1.5em;
+    text-decoration: none;
+    color: hsl(168, 42%, 36%);
+}
+
+.footer a:hover {
+    color: hsl(168, 80%, 10%);
+    font-weight: 400;
+}
+
+.footer-icons a {
+    padding: 0 0.6em;
+    color: hsl(168, 42%, 36%);
+}
