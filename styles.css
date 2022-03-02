@@ -203,9 +203,28 @@ body {
 
 .main-info a {
     text-transform: uppercase;
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-thickness: 0.25em;
+    text-underline-offset: 0.25em;
     color: black;
 }
+
+.main-info .learn-more-yellow {
+    text-decoration-color: #ffef94;
+}
+
+.main-info .learn-more-yellow:hover {
+    text-decoration-color: #fad400;
+}
+
+.main-info .learn-more-red {
+    text-decoration-color: #fea59a;
+}
+
+.main-info .learn-more-red:hover {
+    text-decoration-color: #fe7867;
+}
+
 
 .graphic-design {
     color: hsl(167, 40%, 24%);
