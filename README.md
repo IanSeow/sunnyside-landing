@@ -18,7 +18,7 @@ Users should be able to:
 
 ### Screenshot
 
-![sunnyside-screenshot.png]
+![](sunnyside-screenshot.png)
 
 
 ### Links
